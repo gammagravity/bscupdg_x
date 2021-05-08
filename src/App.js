@@ -1,5 +1,6 @@
 import React, { useRef, useEffect, useState, Suspense } from "react";
 import "./App.scss";
+import { SocialIcon } from 'react-social-icons';
 //Components
 import Header from "./components/header";
 import { Section } from "./components/section";
