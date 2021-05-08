@@ -1,11 +1,11 @@
 import React from "react";
-import { ReactComponent as Logo } from '../title-withshadowAsset_1.png';
+import Logo from '../title-withshadowAsset_1.png';
 
 export default function Header() {
   return (
     <header>
       <div className='header-inner'>
-        <div className='logo'>UPDOG LOGO</div>
+        <div className='logo'><img src={Logo}/></div>
         <nav>
           <ul>
             <li>
