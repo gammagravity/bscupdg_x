@@ -1,4 +1,5 @@
 import React from "react";
+import { ReactComponent as Logo } from '../title-withshadowAsset_1.png';
 
 export default function Header() {
   return (
