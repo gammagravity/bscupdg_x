@@ -144,12 +144,12 @@ export default function App() {
           {/* <HTMLContent
             domContent={domContent}
             bgColor='#571ec1'
-            modelPath='/armchairGreen.gltf'
+            modelPath='/tokenomics-01.svg'
             position={0}>
             <span>Shit... we even</span>
             <span>got different colors</span>
-          </HTMLContent>
-          <HTMLContent
+          </HTMLContent> */}
+          {/* <HTMLContent
             domContent={domContent}
             bgColor='#636567'
             modelPath='/armchairGray.gltf'

@@ -17,7 +17,7 @@ export default function Header() {
           <ul>
           <li>
               <a target="_blank" rel="noopener noreferrer" href='https://twitter.com/UpdogBSC'><img src={TwitterLogo} alt=""/></a>
-              <a target="_blank" rel="noopener noreferrer" href='https://twitter.com/UpdogBSC'> <img src={MediumLogo} alt=""/></a>
+              <a target="_blank" rel="noopener noreferrer" href='https://updogbsc.medium.com/'> <img src={MediumLogo} alt=""/></a>
               <a target="_blank" rel="noopener noreferrer" href='https://t.me/UpDogBsc'> <img src={TelegramLogo} alt=""/></a>
             </li>
             {/* <li>
