@@ -3,7 +3,7 @@ import UpDogLogo from '../title-withshadowAsset_1.png';
 import TwitterLogo from '../twitter.svg';
 import MediumLogo from '../iconmonstr-medium-5.svg'
 import TelegramLogo from '../iconmonstr-telegram-5.svg'
-import BlankLogo from '../blank.svg'
+// import BlankLogo from '../blank.svg'
 
 
 export default function Header() {
