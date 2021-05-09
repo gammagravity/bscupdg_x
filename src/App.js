@@ -144,7 +144,7 @@ export default function App() {
           </HTMLContent>
           <HTMLContent
             domContent={domContent}
-            bgColor='#1a75ff'
+            bgColor='#f15946'
             modelPath='/updoge.gltf'
             position={0}>
             <img src={UpDogLogo} alt="" />
