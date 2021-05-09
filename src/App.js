@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState, Suspense } from "react";
 import "./App.scss";
-import UpDogLogo from './tokenomics-blue-01.png';
+import UpDogLogo from './tokenomics-updated-01.svg';
 // import { SocialIcon } from 'react-social-icons';
 //Components
 import Header from "./components/header";
@@ -142,20 +142,17 @@ export default function App() {
             position={250}>
             <span> $UPDOG</span>
           </HTMLContent>
-          {/* <HTMLContent
+          <HTMLContent
             domContent={domContent}
             bgColor='#1a75ff'
-            modelPath='/updogebig3.gltf'
+            modelPath='/updoge.gltf'
             position={0}>
-            <span>Deflationary</span>
-            <span>Frictionless</span> 
-            <span>Frictionless Yield Farming</span>
             <img src={UpDogLogo} alt="" />
-          </HTMLContent> */}
+          </HTMLContent>
           {/* <HTMLContent
             domContent={domContent}
             bgColor='#636567'
-            modelPath='/armchairGray.gltf'
+            modelPath='/.gltf'
             position={-250}>
             <span>And yes</span>
             <span>we even got</span>
