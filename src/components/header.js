@@ -20,14 +20,14 @@ export default function Header() {
               <a target="_blank" rel="noopener noreferrer" href='https://updogbsc.medium.com/'> <img src={MediumLogo} alt=""/></a>
               <a target="_blank" rel="noopener noreferrer" href='https://t.me/UpDogBsc'> <img src={TelegramLogo} alt=""/></a>
             </li>
-            {/* <li>
-              <a href='/'>TOKENOMICS</a>
+            <li>
+              <a target="_blank" rel="noopener noreferrer" href='https://poocoin.app/tokens/0x400613f184d1207f5c07a67d67040a4e23e92feb'>CHART UPDOG</a>
             </li>
             <li>
-              <a href='/'>WHITEPAPER</a>
-            </li> */}
+              <a href='https://bscscan.com/address/0x400613f184d1207f5c07a67d67040a4e23e92feb'>CONTRACT</a>
+            </li>
             <li className='btn'>
-              <a href='/'>BUY UPDOG</a>
+              <a href='https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x400613f184D1207f5C07a67D67040A4e23E92feB'>BUY UPDOG</a>
             </li>
           </ul>
         </nav>
