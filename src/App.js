@@ -1,5 +1,6 @@
 import React, { useRef, useEffect, useState, Suspense } from "react";
 import "./App.scss";
+import UpDogLogo from './tokenomics.png';
 // import { SocialIcon } from 'react-social-icons';
 //Components
 import Header from "./components/header";
@@ -141,14 +142,16 @@ export default function App() {
             position={250}>
             <span> $UPDOG</span>
           </HTMLContent>
-          {/* <HTMLContent
+          <HTMLContent
             domContent={domContent}
-            bgColor='#571ec1'
-            modelPath='/tokenomics-01.svg'
+            bgColor='#1a75ff'
+            modelPath='/updogebig3.gltf'
             position={0}>
-            <span>Shit... we even</span>
-            <span>got different colors</span>
-          </HTMLContent> */}
+            {/* <span>Deflationary</span>
+            <span>Frictionless</span> 
+            <span>Frictionless Yield Farming</span> */}
+            <img src={UpDogLogo} alt="" />
+          </HTMLContent>
           {/* <HTMLContent
             domContent={domContent}
             bgColor='#636567'
@@ -167,7 +170,7 @@ export default function App() {
         onScroll={onScroll}
         {...events}>
         <div style={{ position: "sticky", top: 0 }} ref={domContent} />
-        <div style={{ height: `${state.pages * 20}vh` }} />
+        <div style={{ height: `${state.pages * 65}vh` }} />
       </div>
     </>
   );
