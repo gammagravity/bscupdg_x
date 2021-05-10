@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState, Suspense } from "react";
-import "./App.scss";
 import UpDogLogo from './tokenomics-updated-01.svg';
-// import { SocialIcon } from 'react-social-icons';
+import SocialFollow from "./components/Footer"
+
 //Components
 import Header from "./components/header";
 import { Section } from "./components/section";
@@ -127,6 +127,7 @@ export default function App() {
   return (
     <>
       <Header />
+      <SocialFollow />
       {/* R3F Canvas */}
       <Canvas
         concurrent
