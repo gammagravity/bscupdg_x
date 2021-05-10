@@ -51,6 +51,7 @@ header {
     align-items: center;
     justify-content: space-between;
     .logo {
+      font-size: 2rem;
       font-weight: 900;
       letter-spacing: 2px;
       color: #fff;
@@ -65,6 +66,7 @@ header {
           margin: 0 60px;
           &.btn {
             a {
+              font-size: 2rem;
               color: #fff;
               font-weight: 600;
               background: #23232a;
@@ -73,6 +75,7 @@ header {
             }
           }
           a {
+            font-size: 1.5rem;
             text-transform: capitalize;
             text-decoration: none;
             color: #fff;
